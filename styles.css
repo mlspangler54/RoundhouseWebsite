@@ -1,33 +1,60 @@
 /* styles.css */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     background-color: tan;
     color: #333;
-    margin: 20px;
+    margin: 1.5rem;
 }
 
-.logo-img {
-    width: 150px;
-    height: auto;
-}
-
-.content {
+.topHeader {
     display: flex;
     align-items: center;   /* Centers the image vertically with the text */
     justify-content: space-between;
-    gap: 20px;             /* Space between text and image */
 }
 
-.text {
+.headerText {
+    font-size: 3rem;
     flex: 1;               /* Allows the text to take up remaining space */
-}
-
-h1 {
     color: darkolivegreen;
-    text-align:center
+    text-align:Left;
 }
 
-p {
-    font-size: 16px;
+.logo-img {
+    /*width: 150px;*/
+    width: 15rem;
+    height: auto;
+}
+
+.TRRHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TRRHeaderText {
+    font-size: 2rem;
+    flex: 1;
+    color: maroon;
+    text-align:Left;
+}
+
+.TRRBody {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.TRRBoxArt {
+    width: 30rem;
+    height: auto;
+}
+
+.TRRBodyText {
+    text-indent: 4rem;
+    align-items: top;
+    font-size: 1.25rem;
+    flex: 1;               /* Allows the text to take up remaining space */
+    text-align:Left;
 }
