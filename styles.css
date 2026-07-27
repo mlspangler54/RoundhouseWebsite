@@ -106,7 +106,8 @@ body {
 
 .PDFViewer {
     width: 100%;
-    max-width: 900px;
+    height: 100vh;
+    max-width: auto;
     margin: auto;
 }
 
