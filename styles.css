@@ -41,6 +41,7 @@ body {
     display: flex;
     align-items: stretch;
     gap: 1.5rem;
+    justify-content: center;
 }
 
 .TRRBodyRight {
@@ -59,10 +60,11 @@ body {
 .TRRBodyText {
     font-size: 1.5rem;
     text-align:Left;
+    text-indent: 5rem;
 }
 
-.TRRBodyRight p {
-    text-indent: 2em;
+.TRRBodyText p {
+    text-indent: 2rem;
     margin: 0;
 }
 
