@@ -51,7 +51,7 @@ body {
 
 .TRRBoxArt {
     width: 45rem;
-    height: auto;
+    height: 45rem;
     flex-shrink: 0;
 }
 
